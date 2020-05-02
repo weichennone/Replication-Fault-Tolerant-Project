@@ -2,7 +2,7 @@
 
 The flagship project involved the design and implementation of an industry-grade fault-tolerant distributed system, with heartbeats, distributed consensus, total ordering, checkpointing, and logging to provide strong consistency for a distributed replicated application. This project involved supporting different replication styles (active, or hot-swap replication, as well as  passive, or primary-backup replication), along with mechanisms to ensure no downtime even as faults are injected.
 
-![system diagram](diagram.pdf)
+![system diagram](diagram.png)
 
 ## Set-up Steps
 ### Replication Manager (Machine-1)
